@@ -1,1 +1,2 @@
-# Store-Final
+KachaBazar Frontend Documentation
+
