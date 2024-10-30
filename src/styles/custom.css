@@ -66,10 +66,10 @@ p:not(:last-of-type) {
   border-width: 1px !important;
   width: 12px !important;
   height: 12px !important;
-  border-color: #059669 !important;
+  border-color: #ff7703 !important;
 }
 .react-multi-carousel-dot--active button {
-  background: #059669 !important;
+  background: #ff7703 !important;
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .react-multi-carousel-dot-list.custom-dot {
@@ -320,7 +320,7 @@ p:not(:last-of-type) {
 .category-slider button.prev,
 .category-slider button.next {
   text-align: center;
-  background-color: #34d399;
+  background-color: #ff7703;
   color: #ffffff;
   margin: 15px 2px 0 2px;
   position: absolute;
@@ -338,7 +338,7 @@ p:not(:last-of-type) {
 }
 .category-slider button.next:hover,
 .category-slider button.prev {
-  background-color: #10b981;
+  background-color: #ff7703;
 }
 .category-slider button.prev svg,
 .category-slider button.next svg {
@@ -376,8 +376,8 @@ p:not(:last-of-type) {
   font-weight: 500;
 }
 .page-previous-link:hover {
-  border: 1px solid #10b981;
-  background-color: #10b981;
+  border: 1px solid #ff7703;
+  background-color: #ff7703;
   color: #fff;
 }
 .page-next-link {
@@ -387,8 +387,8 @@ p:not(:last-of-type) {
   font-weight: 500;
 }
 .page-next-link:hover {
-  border: 1px solid #10b981;
-  background-color: #10b981;
+  border: 1px solid #ff7703;
+  background-color: #ff7703;
   color: #fff;
 }
 .page--link:hover {
@@ -397,8 +397,8 @@ p:not(:last-of-type) {
 .activePagination {
   text-align: center;
   border-radius: 3px;
-  background: #10b981;
-  border: 1px solid #10b981;
+  background: #ff7703;
+  border: 1px solid #ff7703;
   color: #fff;
 }
 /*---=========================
@@ -548,20 +548,20 @@ p:not(:last-of-type) {
 }
 
 .carousel-root .carousel .control-dots .dot .selected {
-  color: green !important;
-  background: green !important;
+  color: #ff7703 !important;
+  background: #ff7703 !important;
 }
 
 .control-arrow control-next {
-  color: #059669;
-  background: #059669;
+  color: #ff7703;
+  background: #ff7703;
 }
 .carousel .carousel-status {
   color: #000 !important;
   text-shadow: none !important;
 }
 .carousel .control-dots .dot {
-  background: #10b981 !important;
+  background: #ff7703 !important;
 }
 
 .invoice-address-width {
@@ -600,8 +600,8 @@ p:not(:last-of-type) {
   font-weight: 500;
 }
 .page-previous-link:hover {
-  border: 1px solid #10b981;
-  background-color: #10b981;
+  border: 1px solid #ff7703;
+  background-color: #ff7703;
   color: #fff;
 }
 .page-next-link {
@@ -611,8 +611,8 @@ p:not(:last-of-type) {
   font-weight: 500;
 }
 .page-next-link:hover {
-  border: 1px solid #10b981;
-  background-color: #10b981;
+  border: 1px solid #ff7703;
+  background-color: #ff7703;
   color: #fff;
 }
 .page--link:hover {
@@ -621,8 +621,8 @@ p:not(:last-of-type) {
 .activePagination {
   text-align: center;
   border-radius: 3px;
-  background: #10b981;
-  border: 1px solid #10b981;
+  background: #ff7703;
+  border: 1px solid #ff7703;
   color: #fff;
 }
 
@@ -1364,6 +1364,24 @@ p:not(:last-of-type) {
 }
 
 .nsm7Bb-HzV7m-LgbsSe:hover {
-  background: #10b981 !important;
+  background: #ff7703 !important;
   color: #e2e8f0;
+}
+
+.bg-emerald-500 {
+  --tw-bg-opacity: 1;
+  background-color: #ff7703;
+}
+.text-emerald-600 {
+  --tw-text-opacity: 1;
+  color: rgb(255 119 3);
+}
+.text-emerald-500 {
+  --tw-text-opacity: 1;
+  color: rgb(255 119 3);
+}
+
+.bg-emerald-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 119 3);
 }
